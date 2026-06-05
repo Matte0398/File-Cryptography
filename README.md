@@ -1,12 +1,10 @@
 # FileCryptography
-A Python script that uses the Fernet library to encrypt/decrypt a simple file
-<hr>
 
-### USAGE
-&nbsp;&nbsp; ``` python file_cryptography.py [param] ```
-<hr>
+A Python utility that uses the Fernet symmetric encryption library to encrypt and decrypt files.
 
-### Param
+## Usage
 
-- To encrypt the file: `encrypt`
-- To decrypt the file: `decrypt`
+```bash
+python file_cryptography.py [mode]
+
+mode = encrypt or decrypt
