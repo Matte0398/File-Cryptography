@@ -33,3 +33,9 @@ python file_cryptography.py [mode]
 mode:
    - encrypt
    - decrypt
+```
+
+## Example
+
+```bash
+python file_cryptography.py decrypt
