@@ -30,9 +30,10 @@ pip install cryptography
 ```bash
 python file_cryptography.py [mode]
 
-mode:
-   - encrypt
-   - decrypt
+  mode:
+
+    - encrypt
+    - decrypt
 ```
 
 ## Example
