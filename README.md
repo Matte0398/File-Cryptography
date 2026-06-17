@@ -8,7 +8,7 @@ This project was created as a learning exercise to practice basic file encryptio
 
 The script works only with the following files, which are defined directly in the source code:
 
-```bash
+``` text
 original_file = "original_file.txt"
 file_to_encrypt = "encrypted_file.txt"
 file_decrypted = "decrypted_file.txt"
@@ -21,22 +21,24 @@ file_decrypted = "decrypted_file.txt"
 
 ## Installation
 
-```bash
+``` python
 pip install cryptography
 ```
 
 ## Usage
 
-```bash
+``` python
 python file_cryptography.py [mode]
+```
 
-  mode:
+#### Mode:
 
-    - encrypt
-    - decrypt
+``` text
+encrypt
+decrypt
 ```
 
 ## Example
 
-```bash
+``` python
 python file_cryptography.py decrypt
